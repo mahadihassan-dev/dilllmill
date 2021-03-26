@@ -1,0 +1,13 @@
+CSS Varriables:
+
+    for button color= var(--btn_color)
+    
+    font-family: 'Pasifico-RegularFont';
+
+    font-family: 'OpenSansHebrewCondensed-Regular';
+
+    font-family: 'OpenSansHebrewCondensed-Bold';
+
+    font-family: 'OpenSansHebrewCondensed-Light';
+
+    font-family: 'OpenSansHebrewCondensed-ExtraBold';
