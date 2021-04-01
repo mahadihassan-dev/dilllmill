@@ -5,6 +5,16 @@
 */
 
 
+/*======================================
+    CSS Contents
+========================================
+
+
+
+
+========================================*/
+
+
 /* === Pasifico Font Connected=== */
 
 @font-face {
@@ -1435,6 +1445,10 @@ span.footer_ovly {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.page-title-content {
+    text-align: center;
 }
 
 
