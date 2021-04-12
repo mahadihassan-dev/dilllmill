@@ -1440,15 +1440,85 @@ span.footer_ovly {
 
 /* ===Page Title Section Start=== */
 
+.about-page {
+    margin-top: 80px;
+}
+
 .page-title {
     background: url(../images/about-us-page_breadcumb-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.page-title::after {
+    content: url(../images/wave-white-hor.png);
+    position: absolute;
+    bottom: -7px;
+    right: 0;
 }
 
 .page-title-content {
     text-align: center;
+    position: relative;
+    padding: 150px;
+}
+
+h1.page-title-text {
+    font-size: 62px;
+    font-family: 'OpenSansHebrewCondensed-Bold';
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #111;
+    margin-bottom: 0;
+}
+
+.page-nav-location ul {
+    margin-bottom: 0;
+}
+
+.page-nav-location ul li {
+    display: inline-block;
+    padding: 0px 15px;
+    position: relative;
+}
+
+.page-nav-location ul li:nth-last-child(1)::before {
+    content: "/";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    color: #fff;
+}
+
+.page-nav-location ul li a {
+    color: #fff;
+    font-family: 'OpenSansHebrewCondensed-Bold';
+}
+
+.page-nav-location {
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    display: block;
+    width: 220px;
+    height: 60px;
+    background: #fa6c48;
+    line-height: 60px;
+    z-index: 1;
+}
+
+.abt-product-display {
+    position: relative;
+    padding: 120px 0px;
+}
+
+.abt-product-display::after {
+    position: absolute;
+    content: url(../images/product_main_after.png);
+    left: 0;
+    bottom: -155px;
 }
 
 
