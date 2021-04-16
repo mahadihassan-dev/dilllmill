@@ -78,21 +78,32 @@ a:hover {
 
 #header {
     background: #fa6c48;
-    padding: 10px 0px;
+    padding: 0px 0px;
 }
 
 .ths_call_center {
     text-align: center;
+    background: #e76342;
 }
 
 .ths_call_center a {
-    color: #fff;
+    color: #fff !important;
     font-size: 18px;
+    padding: 10px;
+    display: block;
+}
+
+.offer {
+    padding: 10px;
 }
 
 .offer p {
     color: #fff;
     margin-bottom: 0 !important;
+}
+
+.login_lang {
+    padding: 10px 0px;
 }
 
 .login_lang ul {
@@ -1534,3 +1545,106 @@ section#gallery {
             About Page Section CSS End
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+            Product page Start
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.show-results p {
+    font-size: 22px;
+    font-family: 'OpenSansHebrewCondensed-Bold';
+    font-weight: 600;
+    color: #111;
+}
+
+.result-filter-box {
+    background: #ebf5ff;
+    width: 255px;
+    height: 35px;
+    line-height: 57px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    font-family: 'OpenSansHebrewCondensed-Regular';
+    font-weight: 400;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+            Product page End
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+            Team Page Start
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.team-mate-profile-card {
+    text-align: center;
+}
+
+span.mate-position {
+    font-family: 'Pasifico-RegularFont';
+    font-size: 18px;
+}
+
+ul.mate-social li {
+    display: inline-block;
+}
+
+ul.mate-social li a.mate-social-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+a.mate-social-link.mate-fb {
+    background: #94c4f7;
+    color: #fff;
+}
+
+a.mate-social-link.mate-insta {
+    background: #F58529;
+    color: #fff;
+}
+
+a.mate-social-link.mate-linked {
+    background: #0077b5;
+    color: #fff;
+}
+
+a.mate-social-link.mate-behance {
+    background: #053eff;
+    color: #fff;
+}
+
+a.mate-social-link.mate-dribble {
+    background: #ea4c89;
+    color: #fff;
+}
+
+a.mate-social-link,
+p.mate-message,
+span.mate-position,
+h3.mate-name {
+    margin: 15px 0px;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+            Team Page End
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
