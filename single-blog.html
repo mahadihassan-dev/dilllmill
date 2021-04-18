@@ -86,18 +86,25 @@
                     <!-- ===Navigation Part=== -->
                     <div class="col-md-6">
                         <div class="nav_list">
-                            <ul>
+                            <ul class="main-nav">
                                 <li>
                                     <a href="#" class="nav_active">Home</a>
                                 </li>
                                 <li>
                                     <a href="#">Page</a>
+                                    <ul class="child-drop-down">
+                                        <li><a href="about.html">About us</a></li>
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="products.html">Products</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="single-blog.html">Single Blog</a></li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <a href="#">Portfolio</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="blog.html">Blog</a>
                                 </li>
                                 <li>
                                     <a href="#">Shop</a>
@@ -165,7 +172,7 @@
                     <span class="blog-post-pblish-info">
                         <ul>
                             <li class="blog-post-public-date">November 29, 2021</li>
-                            <li class="blog-post-author">Admin</li>
+                            <li class="blog-post-author">By Admin</li>
                         </ul>
                     </span>
                 </div>
@@ -186,7 +193,7 @@
                     </p>
                 </div>
                 <!-- ./Blog Post Feature Image -->
-                <div class="blog-feature-images">
+                <div class="blog-feature-images mt-5">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="blog-feature-img">
@@ -199,6 +206,54 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <!-- ./Blog Post Comment -->
+                <div class="blog-comment">
+                    <h3 class="blog-comment-title">Leave a Replay</h3>
+                    <form action="/" method="POST" class="blog-post-replay">
+                        <!-- User Name and Email -->
+                        <div class="row">
+                            <!-- ./user name -->
+                            <div class="col-md-6">
+                                <div class="commentUserName">
+                                    <input type="text" name="username" class="commentUserNamefiled" id="CommentUserName" placeholder="Name" required>
+                                </div>
+                            </div>
+                            <!-- ./User Email -->
+                            <div class="col-md-6">
+                                <div class="commentUserEmail">
+                                    <input type="email" name="useremail" class="commentUserEmailFiled" id="CommentUserEmail" placeholder="Email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- User Comment Subject -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="subject" class="commentUserSubjectFiled" id="commentSubject" placeholder="Subject" required>
+                            </div>
+                        </div>
+                        <!-- User Comment Box -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea name="message" class="userCommentBox" id="userMessage" cols="30" rows="10" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <!-- User Aggrement -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="checkbox" name="useragreement" id="userAgreement" class="UserAgreement" required>
+                                <label for="userAgreement">Save my name, email, and website in this browser for the next time I comment.</label>
+                            </div>
+                        </div>
+                        <!-- User Submit -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="user-submission">
+                                    <input type="button" value="Send Message" class="commentSendButton" id="CommentSendButton">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

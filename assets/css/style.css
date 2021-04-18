@@ -194,12 +194,35 @@ a:hover {
     text-align: center;
 }
 
+.nav_list ul li {
+    display: inline-block;
+}
+
 .nav_list ul {
     margin-bottom: 0 !important;
 }
 
-.nav_list ul li {
-    display: inline-block;
+ul.main-nav li {
+    position: relative;
+    transition: all linear .5s;
+}
+
+ul.child-drop-down {
+    position: absolute;
+    z-index: 9;
+    top: -100px;
+    left: 0;
+    width: 160px;
+    background: #fff;
+    padding: 5px 5px;
+    transition: all linear .5s;
+    visibility: hidden;
+}
+
+.nav_list ul.main-nav li:hover>ul.child-drop-down {
+    visibility: visible;
+    transition: all linear .5s;
+    top: 75px;
 }
 
 .nav_list ul li a {
@@ -1818,6 +1841,122 @@ input.sendButton {
             Singel Blog Page Start
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+h1.blog-post-head-title {
+    color: #000033;
+    font-family: 'OpenSansHebrewCondensed-Bold';
+}
+
+span.blog-post-pblish-info ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+}
+
+span.blog-post-pblish-info ul li:nth-last-child(1)::before {
+    position: absolute;
+    content: "|";
+    top: 4px;
+    left: -5px;
+    color: #000 !important;
+}
+
+li.blog-post-public-date {
+    color: #000033;
+    font-family: 'OpenSansHebrewCondensed-Regular';
+}
+
+p.blog-post {
+    color: #000033;
+    font-family: 'OpenSansHebrewCondensed-Regular';
+    font-size: 18px;
+}
+
+span.blog-quote {
+    display: block;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #fa6c48;
+    font-family: 'OpenSansHebrewCondensed-Bold';
+    position: relative;
+    margin-bottom: 15px;
+}
+
+li.blog-post-author {
+    color: #a6a6a6f7;
+    font-family: 'OpenSansHebrewCondensed-Regular';
+    text-transform: uppercase;
+}
+
+span.blog-quote::before {
+    position: absolute;
+    content: "\f10d";
+    font-family: 'Font Awesome 5 Pro';
+    top: -5px;
+    left: -30px;
+    font-size: 46px;
+    z-index: -1;
+    color: #000;
+    opacity: .5;
+}
+
+.blog-post-head {
+    margin: 30px 0px;
+}
+
+.userCommentBox {
+    width: 1110px;
+    padding: 20px;
+}
+
+.commentUserSubjectFiled {
+    width: 1110px;
+    padding: 10px 20px;
+}
+
+.commentUserNamefiled,
+.commentUserEmailFiled {
+    width: 540px;
+    padding: 10px 20px;
+}
+
+.commentUserNamefiled,
+.commentUserEmailFiled,
+.userCommentBox,
+.commentUserSubjectFiled {
+    margin-top: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+input.commentSendButton {
+    border: 0;
+    background: #fa6c48;
+    color: #fff;
+    font-family: 'OpenSansHebrewCondensed-Regular';
+    display: block;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.blog-comment {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3.blog-comment-title {
+    font-family: 'Pasifico-RegularFont';
+    color: #fa6c48;
+}
+
+.single-blog-main {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

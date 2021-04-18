@@ -1,0 +1,62 @@
+h1.blog-post-head-title {
+    color: #000033;
+    font-family: 'OpenSansHebrewCondensed-Bold';
+}
+
+span.blog-post-pblish-info ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+}
+
+span.blog-post-pblish-info ul li:nth-last-child(1)::before {
+    position: absolute;
+    content: "|";
+    top: 4px;
+    left: -5px;
+    color: #000 !important;
+}
+
+li.blog-post-public-date {
+    color: #000033;
+    font-family: 'OpenSansHebrewCondensed-Regular';
+}
+
+p.blog-post {
+    color: #000033;
+    font-family: 'OpenSansHebrewCondensed-Regular';
+    font-size: 18px;
+}
+
+span.blog-quote {
+    display: block;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #fa6c48;
+    font-family: 'OpenSansHebrewCondensed-Bold';
+    position: relative;
+    margin-bottom: 15px;
+}
+
+li.blog-post-author {
+    color: #a6a6a6f7;
+    font-family: 'OpenSansHebrewCondensed-Regular';
+    text-transform: uppercase;
+}
+
+span.blog-quote::before {
+    position: absolute;
+    content: "\f10d";
+    font-family: 'Font Awesome 5 Pro';
+    top: -5px;
+    left: -30px;
+    font-size: 46px;
+    z-index: -1;
+    color: #000;
+    opacity: .5;
+}
+
+.blog-post-head {
+    margin: 30px 0px;
+}
