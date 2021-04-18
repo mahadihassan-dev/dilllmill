@@ -52,6 +52,8 @@
     --home_banner: url(../images/home_banner.png);
     --btn_color: #fa6c48;
     --head_main_font: 'Anton', sans-serif;
+    --contact-page-background: url(../images/contact_us-bg.png) !important;
+    --blog-page-background: url(../images/blog-page-bg.png) !important;
 }
 
 
@@ -1657,7 +1659,7 @@ h3.mate-name {
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 .page-title.contact-page {
-    background: url(../images/contact_us-bg.png) !important;
+    background: var(--contact-page-background);
 }
 
 h1.contact-title {
@@ -1689,8 +1691,8 @@ a.ca-mail {
     position: relative;
     font-family: 'OpenSansHebrewCondensed-Regular';
     font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 li.ca_address::before {
@@ -1706,12 +1708,120 @@ li.ca-mailaddress::before {
     content: "\f0e0";
     font-family: 'Font Awesome 5 Pro';
     top: 0;
-    left: -22px;
+    left: -25px;
+}
+
+.contact-main {
+    padding: 140px 0px;
+}
+
+.contact-form {
+    width: 430px;
+    background: url(../images/c-form-bg.png);
+    padding: 45px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-address {
+    margin-top: 25px;
+}
+
+h4.cf-head {
+    font-family: 'OpenSansHebrewCondensed-Bold';
+    font-size: 26px;
+    color: #fff;
+}
+
+.userMessage {
+    height: 125px;
+}
+
+.userName,
+.userEmail {
+    height: 50px;
+}
+
+.userName,
+.userEmail,
+.userMessage {
+    width: 345px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'OpenSansHebrewCondensed-Light';
+}
+
+input.sendButton {
+    width: 180px;
+    height: 55px;
+    line-height: 55px;
+    border: 0;
+    background: var(--btn_color);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
             Contact Page End
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+            Blog Page Start
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.blog-main {
+    padding: 140px 0px;
+    position: relative;
+}
+
+.page-title.blog-page-title {
+    background: var(--blog-page-background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-main::after {
+    position: absolute;
+    content: "";
+    background: #fffdef;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 380px;
+    z-index: -1;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+            Blog Page End
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+            Singel Blog Page Start
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+            Singel Blog Page End
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
